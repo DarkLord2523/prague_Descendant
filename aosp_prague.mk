@@ -28,5 +28,5 @@ TARGET_AOSP_BASED := true
 PRODUCT_NAME := aosp_prague
 PRODUCT_DEVICE := prague
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := Honor View 10
+PRODUCT_MODEL := P8 Lite 2017
 
