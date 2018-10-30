@@ -25,5 +25,11 @@ PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# NFC confs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/nfc/libnfc-nci.conf:system/etc/libnfc-nci.conf \
+    $(LOCAL_PATH)/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+    $(LOCAL_PATH)/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
+
 # Inherit from hi6250-common
 $(call inherit-product, device/huawei/hi6250-common/hi6250.mk)
