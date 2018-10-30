@@ -15,9 +15,8 @@
 #
 
 $(call inherit-product, device/huawei/prague/full_prague.mk)
-$(call inherit-product, vendor/descendant/config/common.mk)
 
-PRODUCT_NAME := descendant_prague
+PRODUCT_NAME := aosp_prague
 PRODUCT_DEVICE := prague
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := P8 Lite 2017
