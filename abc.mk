@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/huawei/berkeley/full_berkeley.mk)
+$(call inherit-product, device/huawei/prague/full_prague.mk)
 
-PRODUCT_NAME := aosp_berkeley
-PRODUCT_DEVICE := berkeley
+PRODUCT_NAME := aosp_prague
+PRODUCT_DEVICE := prague
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := Honor View 10
+PRODUCT_MODEL := P8 Lite 2017

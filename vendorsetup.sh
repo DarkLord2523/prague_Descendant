@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo aosp_berkeley
+add_lunch_combo aosp_prague

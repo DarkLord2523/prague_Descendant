@@ -14,5 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_berkeley.mk \
-    $(LOCAL_DIR)/aosp_berkeley.mk
+    $(LOCAL_DIR)/full_prague.mk \
+    $(LOCAL_DIR)/aosp_prague.mk
